@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+  @apply w-[20rem] bg-[#2a3042] text-white min-h-screen p-4;
+}
+
+.header {
+  @apply  text-white p-4 flex justify-between items-center w-full h-16 bg-[#2a3042] overflow-hidden ;
+}
+
+.main-content{
+  @apply p-2;
+}
